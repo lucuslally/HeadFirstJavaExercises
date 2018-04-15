@@ -15,7 +15,7 @@ class PoolPuzzleOne {
 
 			if (x > 1){ //insert snippet #5
 				//insert snippet #6 
-				System.out.println(" oyster");
+				System.out.print(" oyster");
 
 				//insert snipper #7 
 				x = x + 2;
@@ -23,12 +23,12 @@ class PoolPuzzleOne {
 			}//if
 			if (x == 1) {
 				//insert snipper #8
-				System.out.println("noys");
+				System.out.print("noys");
 				
 			}
 			if (x < 1) { //insert snipper #9 
 				//insert snipper #10
-				System.out.println("oise");
+				System.out.print("oise");
 
 
 			}//if
