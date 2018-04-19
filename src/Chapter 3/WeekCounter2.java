@@ -27,7 +27,7 @@ public class WeekCounter2 {
             w[x].determineSuffix(currentDayNum);
 
             // printout results and cycle through Name String Array
-            System.out.println("It's " + currentDayName + ", The " + currentDayNum + w[x].suffix + " day of the week");
+            System.out.println("It's " + currentDayName + ", the " + currentDayNum + w[x].suffix + " day of the week");
 
             x = x +1;
         }
