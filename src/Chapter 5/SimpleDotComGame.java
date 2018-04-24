@@ -4,7 +4,7 @@ public class SimpleDotComGame {
         // DECLARE an int variable to hold the number of user guesses, named numOfGuesses, set it to 0
         int numOfGuesses = 0;
 
-        GameHelper helper = new GameHelper();
+        GameHelper1 helper = new GameHelper1();
 
         // MAKE a new SimpleDotCom Class
         SimpleDotCom theDotCom = new SimpleDotCom();

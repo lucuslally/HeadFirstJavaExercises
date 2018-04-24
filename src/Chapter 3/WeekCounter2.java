@@ -4,18 +4,12 @@ public class WeekCounter2 {
         // declare and create new Day object array with 7 objects
         Week[] w = new Week[7];
 
-        // instantiate seven objects in array
-        w[0] = new Week();
-        w[1] = new Week();
-        w[2] = new Week();
-        w[3] = new Week();
-        w[4] = new Week();
-        w[5] = new Week();
-        w[6] = new Week();
-
         int x = 0;
         // iterate 7 times
         while (x < 7){
+
+            // instantiate seven objects in array
+            w[x] = new Week();
 
             // new variable for current Name as the loop cycles
             String currentDayName = w[x].dayName[x];
