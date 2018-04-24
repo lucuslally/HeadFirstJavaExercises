@@ -9,19 +9,20 @@ public class DotCom {
     }
 
 
-    public String checkYourself(String userInput){
+    public String checkYourself(String userInput) {
         String result = "miss";
 
         int index = locationCells.indexOf(userInput);
-            if (index >= 0){
-                locationCells.remove(index);
+        if (index >= 0) {
+            locationCells.remove(index);
 
-                if (locationCells.isEmpty()){
-                    result = "kill";
-                } else {
-                    result = "hit";
-                }
+            if (locationCells.isEmpty()) {
+                result = "kill";
+            } else {
+                result = "hit";
             }
+        }
 
-    return result;
+        return result;
+    }
 }
