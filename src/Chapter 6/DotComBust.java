@@ -1,4 +1,6 @@
 import java.lang.reflect.Array;
+/*
+
 import java.util.*;
 public class DotComBust {
 
@@ -12,11 +14,11 @@ public class DotComBust {
         // first make some dot coms and give them locations
         // make three DotCom objects, give 'em names, and stick 'em in the ArrayList
         DotCom one = new DotCom();
-        one.setName("Pets.com");
+        //one.setName("Pets.com");
         DotCom two = new DotCom();
-        two.setName("eToys.com");
+        //two.setName("eToys.com");
         DotCom three = new DotCom();
-        three.setName("Go2.com");
+        //three.setName("Go2.com");
         dotComsList.add(one);
         dotComsList.add(two);
         dotComsList.add(three);
@@ -30,7 +32,7 @@ public class DotComBust {
         for (DotCom dotComToSet : dotComsList){
 
             // as the helper for a DotCom location
-            ArrayList<String> newLocation = helper.placeDotCom(3);
+           // ArrayList<String> newLocation = helper.placeDotCom(3);
 
             // call the setter method on this DotCom to give it the location you just got from the helper
             dotComToSet.setLocationCells(newLocation);
@@ -42,8 +44,9 @@ public class DotComBust {
         // as long as the DotCom list is NOT empty
         while(!dotComsList.isEmpty()){
             String userGuess = helper.getUserInput("Enter a Guess");
-            checkUserGuess(userGuess);
+       //     checkUserGuess(userGuess);
         }
-        finishGame();
+       // finishGame();
     }
 }
+*/
